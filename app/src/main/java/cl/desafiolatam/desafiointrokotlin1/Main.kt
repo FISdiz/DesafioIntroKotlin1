@@ -22,13 +22,11 @@ fun sumaVariables() : Int {
     val num1 = 10
     val num2 = 20
     val num3 = 30
-    val result = num1+num2+num3
-    return result
+    return num1+num2+num3
 }
 
 fun sumaVariables2 (num1: Int, num2: Int, num3: Int) : Int {
-    var result = num1 + num2 + num3
-    return result
+    return num1 + num2 + num3
 }
 
 fun caracteres() :String {
@@ -50,23 +48,19 @@ fun decimal() : Float {
 }
 
 fun byteMax() : Byte {
-    val bMax = Byte.MAX_VALUE
-    return bMax
+    return Byte.MAX_VALUE
 }
 
 fun shortMax() : Short {
-    val sMax = Short.MAX_VALUE
-    return sMax
+    return Short.MAX_VALUE
 }
 
 fun intMin() : Int {
-    val iMin = Int.MIN_VALUE
-    return iMin
+    return Int.MIN_VALUE
 }
 
 fun longMin() : Long {
-    val lMin = Long.MIN_VALUE
-    return lMin
+    return Long.MIN_VALUE
 }
 
 fun booleana() : Boolean{
@@ -75,13 +69,10 @@ fun booleana() : Boolean{
 }
 
 fun imprimiendoParametros(palabra1 :String, palabra2 :String) {
-    var plenght1 = palabra1.length
-    var plenght2 = palabra2.length
-    println("La cantidad de caracteres de la palabra $palabra1 es $plenght1")
-    println("La cantidad de caracteres de la palabra $palabra2 es $plenght2")
+    var sumachar = palabra1.length+palabra2.length
+    println("La suma de caracteres de las palabras $palabra1 y $palabra2, es $sumachar")
 }
 
 fun obtieneIVA (monto :Int) : Double {
-    var iva : Double = monto*0.19
-    return iva
+    return monto*0.19
 }
