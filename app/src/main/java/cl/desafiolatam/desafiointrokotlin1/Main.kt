@@ -5,13 +5,13 @@ fun main () {
     println("El resultado de la suma es ${sumaVariables()}")
     println("El resultado de la suma es ${sumaVariables2(4,6,8)}")
     println(caracteres())
-    println(caracteres2("Talento Digital"))
+    caracteres2("Talento Digital")
     println("Float = ${decimal()}")
     println("El valor maximo de Byte es ${byteMax()} \nEl valor maximo de Short es ${shortMax()}")
     println("El valor minimo de Int es ${intMin()} \nEl valor minimo de Long es ${longMin()}")
     println("El valor de Si es ${booleana()}")
-    println(imprimiendoParametros("Android", "Kotlin"))
-    println("El iva corresponde a ${obtieneIVA(4990)}")
+    imprimiendoParametros("Android", "Kotlin")
+    println("El iva corresponde a ${obtieneIVA(4990.0)}")
 }
 
 fun miNombre () : String {
@@ -73,6 +73,6 @@ fun imprimiendoParametros(palabra1 :String, palabra2 :String) {
     println("La suma de caracteres de las palabras $palabra1 y $palabra2, es $sumachar")
 }
 
-fun obtieneIVA (monto :Int) : Double {
+fun obtieneIVA (monto :Double) : Double {
     return monto*0.19
 }
